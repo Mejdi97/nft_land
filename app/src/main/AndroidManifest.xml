@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Nft_land">
         <activity
 
+
             android:name=".DetailsActivity"
             android:exported="false" />
         <activity
@@ -20,6 +21,11 @@
             android:name=".MenuActivity"/>
 
         <activity
+
+            android:name=".activity_login"
+            android:exported="false" />
+        <activity
+
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
